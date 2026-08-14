@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 });
 
 
-//require("./app/routes/archivo de ruta.js")(app);
+require("./app/routes/catalogo.routes.js")(app);
 
 const PORT = process.env.PORT || 8081;
 app.listen(PORT, () => {
